@@ -20,6 +20,15 @@
     <!-- Section -->
     <section class="py-0">
         <div class="container">
+            <nav class="my-0 pt-4" aria-label="Page pagination">
+        <ul class="pagination justify-content-center">
+
+            <li class="page-item"><%= link_to 'Vacances', root_path, class:'page-link'%></li>
+
+            <li class="page-item active"><%= link_to 'Manifestation', page2_path, class:'page-link'%></li>
+
+        </ul>
+    </nav>
             <div class="row">
                 <div class="col-lg-10 order-lg-2 py-6 py-lg-9 px-0">
                     <div class="grid">
@@ -83,22 +92,7 @@
             </div>
         </div>
     </section>
-    <nav class="my-0 pt-4" aria-label="Page pagination">
-        <ul class="pagination justify-content-center">
-            <li class="page-item">
-                <%= link_to 'Précédent', root_path, class:'page-link'%>
-            </li>
-            <li class="page-item"><%= link_to '1', root_path, class:'page-link'%></li>
-
-            <li class="page-item active"><%= link_to '2', page2_path, class:'page-link'%></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-            </li>
-        </ul>
-    </nav>
+    
     <!-- End of Section -->
 </main>
 <!-- End of Main Content -->
