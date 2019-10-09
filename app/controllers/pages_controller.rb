@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
 	def page2
 	end
+
+	def page3
+	end
 end
