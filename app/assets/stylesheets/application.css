@@ -18,3 +18,7 @@
  *= require vendor/aos/dist/aos
 
  */
+
+*{
+font-family: 'Playfair Display', serif;
+}
