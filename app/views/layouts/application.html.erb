@@ -15,7 +15,11 @@
   <body>
 
     <%= yield %>
+
+    <% if current_page?(contact_path) == false %>
     <%= render 'layouts/footer' %>
+    <% end %>
+    
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </body>
 </html>
